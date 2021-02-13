@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #E78A00;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+   background-color: white;
+  
+   position: absolute;
+    width: 1152px;
+    height: 590px;
+    left: 81px;
+    top: 50px;
+    border-radius:24px ;
+    background-color:  #2B2B2B;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    animation-name:fade ;
+    animation-duration:1s ;
+   
+    
+
+}
+
+header{
+    position: absolute;
+    width: 955px;
+    height: 38px;
+    
+    top: 29px;
+    display: flex;
+    justify-content: space-between;
+    animation-name: up;
+    animation-duration: 1s;
+    
+    
+    
+}
+header h1{
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 37px;
+    text-transform: uppercase;
+
+    
+
+    
+}
+.content{
+
+}
+.content a{
+
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px 0 10px;    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+   
+
+    
+   
+}
+.content button{
+    background-color: red;
+    width: 130px;
+    height:30px;
+    border-radius: 15px;
+    color: white;
+    background-color: #2B2B2B ;
+    border: 1px solid white;
+    margin-left: 20px;
+    
+}
+
+footer{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 100px;    
+    top: 530px;
+    display: flex;
+    width: 90%;
+    
+    
+
+
+}
+footer .fas{
+    margin-right: 8px;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+footer .fas:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+footer p {
+    
+    margin-left: 900px;
+    
+}
+main h3{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 37px;
+}
+main button{
+    position: absolute;
+   
+    margin: 10px 0 0 129px ;
+    
+    height:40px ;
+    width: 180px;
+    border-radius: 20px;
+    background-color: #E78A00;
+    border: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    
+    
+
+
+
+}
+main button .car{
+    padding-left:2px ;
+}
+
+main img{
+   
+    width: 436px;
+    height: 321px;
+    left: 358px;
+    top: 190px;
+    
+
+    
+
+
+}
+button{
+    cursor: pointer;
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 1;
+    transition: .5s;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes up{
+    from{
+        transform: translateY(-35%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+
+
